@@ -29,3 +29,6 @@ isVowel char = elem char "aeiou"
 
 hasEqHeads :: [Int] -> [Int] -> Bool
 hasEqHeads lst1 lst2 = head(lst1) == head(lst2)
+
+isVowel2 :: Char -> Bool
+isVowel2 char = elem char "aeiouAEIOU"
