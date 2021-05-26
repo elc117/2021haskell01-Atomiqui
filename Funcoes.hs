@@ -43,5 +43,5 @@ between60and80 int = int > 60 && int < 80
 
 achaEsp :: Char -> Int
 achaEsp c 
-   | c == ' '  = 1
-   | otherwise = 0
+ | c == ' '  = 1
+ | otherwise = 0

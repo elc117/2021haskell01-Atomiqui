@@ -26,3 +26,6 @@ countSpaces x = sum (map achaEsp x)
 
 calcAreas :: [Float] -> [Float]
 calcAreas r = map circleArea r
+
+charFound :: Char -> String -> Bool
+charFound c s = any(c==) s
